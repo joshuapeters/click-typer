@@ -27,9 +27,9 @@ class App extends Component<Props, State> {
     // todo: take whatever character is currently selected, and append it to the current text
   }
 
-  private onTextChange(e) {
+  private onTextChange(e: React.FormEvent<HTMLInputElement>) {
     // if text is changed manually, update the global text
-    let newText = '';
+    let newText = e.currentTarget.value;
     this.setState({
         text: newText
     })
