@@ -1,0 +1,11 @@
+.c-character-card {
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding-top: 13px;
+} 
+
+.-selected {
+    background-color: lightskyblue;
+}
